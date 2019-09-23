@@ -1,0 +1,18 @@
+{
+  "name": "ikorlevic/feed",
+  "description": "feed test",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "iva korlevic",
+      "email": "iva.korlevic@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {"Lib\\": "lib/"}
+  }
+}
