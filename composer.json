@@ -1,7 +1,7 @@
 {
   "name": "ikorlevic/feed",
   "description": "feed test",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
@@ -10,7 +10,12 @@
     }
   ],
   "require": {
-
+    "mongodb/mongodb": "1.4",
+    "guzzlehttp/psr7": "^1.6",
+    "php-http/curl-client": "^2.0",
+    "slim/slim": "^4.2",
+    "zendframework/zend-diactoros": "^2.1",
+    "php-http/message": "^1.8"
   },
   "autoload": {
     "psr-4": {"Lib\\": "lib/"}
