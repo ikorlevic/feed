@@ -39,7 +39,7 @@ $infos = $client->getInfos();
     <article>
         <?php
         foreach ($data as $item) {
-        //    print_r($item->children("content", true));
+        //    ikorlevic: get full content: $item->children("content", true);
             $categories = [];
             foreach($item->category as $cat){
                 $categories[] = str_replace(" ","_",$cat->__toString());
@@ -58,7 +58,6 @@ $infos = $client->getInfos();
                 </div>
             </section>
             <?php
-            //      $item->title; $item->link; $item->comments; $item->pubDate; $item->category; $item->guid; $item->description; $item->postId;
         }
         ?>
     </article>
